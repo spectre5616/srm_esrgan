@@ -116,7 +116,7 @@ def infer_params(state_dict):
 class UpscalerESRGAN(Upscaler):
     def __init__(self, dirname):
         self.name = "ESRGAN"
-        self.model_url = ""
+        self.model_url = "https://github.com/spectre5616/srm_esrgan/blob/master/esrgan.pth"
         self.model_name = "ESRGAN_4x"
         self.scalers = []
         self.user_path = dirname
